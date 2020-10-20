@@ -43,10 +43,10 @@ if(!$_GET['id']){
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Donlod Lagu Ori Disini Coeg">
+    <meta name="description" content="Download lagu ndek kene sam">
     <meta name="author" content="Anon">
     <link rel="icon" href="assets/images/favicon.ico">
-    <title><?=$name?> - Donlod Lagu Gratis</title>
+    <title><?=$name?> - Donlod Lagu Gratis ra katek bayar</title>
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	<style>
 		body {
@@ -88,16 +88,17 @@ if(!$_GET['id']){
 <source src="<?=$json->mp3Url?>" type="audio/mpeg">
 </audio>
 						</div><hr>
-						Waktu Rilis: <b><?=$json->public_time?></b><br>
-						Artis: <a href="singer.php?id=<?=$json->msingerid?>"><b><?=$json->msinger?></b></a><br>
-						Album: <a href="album.php?id=<?=$json->malbumid?>"><b><?=$json->malbum?></b></a><br>
+						Waktu Rilis/Pas rilise: <b><?=$json->public_time?></b><br>
+						Artis/Seng nyanyi: <a href="singer.php?id=<?=$json->msingerid?>"><b><?=$json->msinger?></b></a><br>
+						Album/Jenenge: <a href="album.php?id=<?=$json->malbumid?>"><b><?=$json->malbum?></b></a><br>
 						Playtime: <b><?=gmdate('i:s', $json->minterval)?></b><br>
 						MP3 320kbps(Original Quality): <a href="mp3.php?id=<?=$_GET['id']?>"><b>Mirror Download</b></a><br>
 						M4A 100kbps+(TV Quality): <a href="m4a.php?id=<?=$_GET['id']?>"><b>Mirror Download</b></a><br><hr>
 						<pre><?=$ly?></pre>
 						<center>
-<a href="lyric.php?id=<?=$_GET['id']?>" style="text-decoration:none;"><b>Download Lyric</b></a><br><br>
+<a href="lyric.php?id=<?=$_GET['id']?>" style="text-decoration:none;"><b>Download Lirik e</b></a><br><br>
 </center>
+</div>
 </div>                     
                     </div>  
         </div>
